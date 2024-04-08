@@ -1,0 +1,156 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container
+{
+    height:100vh;
+    width:100%;
+    position: relative;
+    background-image: url(port1.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .box
+{
+    height:86vh;
+    width:75%;
+    padding:0 20px;
+    background-color:rgb(190, 189, 182);
+    z-index:10;
+    border:2px solid white;
+    border-radius:10px;
+    display:flex;
+    backdrop-filter:blur(25px);
+}
+.container nav{
+    height:7%;
+    width:90%;
+    position:absolute;
+    display: flex;
+    justify-content: space-between;
+    margin:15px auto;
+    padding:20px;
+}
+.container .logo
+{
+    font-size:32px;
+    font-weight: 700;
+    text-decoration: none;
+    color:black;
+    margin-left: 30px;
+}
+.container .logo::first-letter
+{
+    
+    font-size:35px;
+}
+.container nav ul li
+{
+    display: inline-block;
+    padding: 0 20px;;
+}
+.container nav ul li a{
+    text-decoration: none;
+    font-size:30px;
+    color:black;
+    transition: 0.3x;
+}
+.container nav ul li a:hover
+{
+    color:purple;
+}
+.content
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 0%;
+}
+.content .section-1 img
+{
+ width:8%;
+ height:8%;
+}
+.content .section-1
+{
+    position: relative;
+    width:40%;
+}
+.content .section-1 h1{
+    margin-bottom:20px;
+    font-size:50px;
+    font-weight: 200;
+    color:black;
+}
+.content .section-1 p{
+    color:black;
+    margin-bottom: 10px;
+}
+.content .section-2
+{
+    width:60%;
+    position:relative;
+}
+.content .section-2 img{
+    width:50%;
+    height:50%;
+    margin-left: 90px;
+}
+.pro
+{
+    /*text-align: center;
+    background-image: url(proj.webp); 
+    background-size: cover;*/
+    font-size:35px;
+    background-color: grey;
+    
+}
+.cont
+{
+    margin-left: 30%;   
+    font-size:20px;
+}
+.table{
+    border: black;
+}
+.conimg
+{
+    width:4%;
+    height:4%;
+}
+.h1c
+{
+    font-size: 60px;
+}
+
+.h1p,.h1po
+{
+    font-size: 60px;
+    text-align: center;
+}
+
+* {box-sizing:border-box}
+
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+}
+
+.html {width: 90%; background-color: #04AA6D;} 
+.css {width: 80%; background-color: #2196F3;} 
+.java {width: 65%; background-color: #a0c243;} 
+.c{width: 50%; background-color: #c25b9a;} 
+.react{width: 25%; background-color: #f44336;} 
+.mysql {width: 75%; background-color: #808080;} 
